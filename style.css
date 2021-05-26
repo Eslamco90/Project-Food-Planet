@@ -1,0 +1,208 @@
+*,body, html {
+    margin: 0;
+    padding: 0;
+    font: 1.03em "Open Sans", sans-serif;
+}
+
+body {
+    background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e2432+0,1e2432+100 */
+background: rgb(30,36,50); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(30,36,50,1) 0%, rgba(30,36,50,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,36,50,1) 0%,rgba(30,36,50,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,36,50,1) 0%,rgba(30,36,50,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e2432', endColorstr='#1e2432',GradientType=0 ); /* IE6-9 */;
+}
+
+
+
+
+/*------------------------------------------------*/
+
+.menu{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f6481+0,282f32+100 */
+background: rgb(63,100,129); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(63,100,129,1) 0%, rgba(40,47,50,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(63,100,129,1) 0%,rgba(40,47,50,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(63,100,129,1) 0%,rgba(40,47,50,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f6481', endColorstr='#282f32',GradientType=0 ); /* IE6-9 */
+
+    
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+    
+}
+
+.menu #logo {
+    float: left;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    line-height: 30px;
+    text-shadow: -2px 5px 2px black;
+    
+}
+
+
+.menu > ul {
+   margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+
+.menu > ul > li {
+    float: left;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;   
+}
+
+.menu-item:hover {
+    background-color: #ff0055;
+    color: #000;
+}
+
+
+/*---------------------- STYLING SUB --------------------------*/
+
+
+.sub-content {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3f6481+0,282f32+100 */
+background: rgb(63,100,129); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(63,100,129,1) 0%, rgba(40,47,50,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(63,100,129,1) 0%,rgba(40,47,50,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(63,100,129,1) 0%,rgba(40,47,50,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f6481', endColorstr='#282f32',GradientType=0 ); /* IE6-9 */
+    
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+    background-color: #333;
+    max-height: 0;
+}
+
+.sub-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub-drop {
+    padding: 0;
+}
+
+.sub-drop ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.sub-drop ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+
+.sub-drop ul li:hover {
+    background-color: #ff0055;
+    color: #000;
+}
+
+
+/*---------------------- Controling --------------------------*/
+
+.menu-item:focus {
+    background-color: #ff0055;
+}
+
+.menu ul li:hover .sub-content{
+    max-height: 400px;
+    transition: max-height .3s ease-in;
+    -webkit-transition: max-height .3s ease-in;
+    -moz-transition: max-height .3s ease-in;
+
+}
+
+#rmenu {
+    float: right;
+}
+
+
+/*---------------------- Content --------------------------*/
+
+.background {
+    text-align: center;
+    background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e2432+0,1e2432+100 */
+background: rgb(30,36,50); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(30,36,50,1) 0%, rgba(30,36,50,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,36,50,1) 0%,rgba(30,36,50,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,36,50,1) 0%,rgba(30,36,50,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e2432', endColorstr='#1e2432',GradientType=0 ); /* IE6-9 */
+
+}
+
+.background img {
+    border: 2px solid black;
+    box-shadow: 1px 5px 5px black;
+}
+
+/*---------------------- CSS Content --------------------------*/
+.my form{
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.my form form {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.my form input {
+     width: 30%;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+    border: 1px; solid #fff;
+    border-radius: 7px;
+}
+
+label {
+ display: block;
+    color: white;
+    
+}
+.my form textarea {
+    width:  80%;
+    border: 0;
+    resize: none;
+    min-height: 200px;
+}
+
+input[type="submit"]{
+    background: #ff0055;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    
+    
+    
+}
+
+input[type="submit"]:hover{
+    background: #888;
+   
+}
+
